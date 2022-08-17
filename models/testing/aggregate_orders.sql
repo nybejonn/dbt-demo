@@ -1,9 +1,3 @@
-{{
-    config(
-        materialized='table'
-    )
-}}
-
 select 
     c.CUSTOMERNAME, count(distinct o.ORDERID) as order_count
 from 

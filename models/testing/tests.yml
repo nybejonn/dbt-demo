@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: aggregate_orders
+    columns: 
+      - name: customername
+        tests:
+         - unique
+         - not_null
