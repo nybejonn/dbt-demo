@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: model2
+    columns: 
+      - name: order_count
+        tests:
+         - accepted_values:
+            values:
+              - 2
+              - 3
+              - 4
+              - 5
