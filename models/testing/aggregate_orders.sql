@@ -10,4 +10,4 @@ from
     GLOBALMART.ORDERS as o join GLOBALMART.CUSTOMER as c 
 on 
     o.CUSTOMERID = c.CUSTOMERID
-group by c.CUSTOMERNAME order by 1;
+group by c.CUSTOMERNAME order by 1
