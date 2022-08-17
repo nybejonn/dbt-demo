@@ -1,1 +1,1 @@
-select * from {{ ref('model1') }} where order_count = 0;
+select * from {{ ref('aggregate_orders') }} where order_count = 0;
